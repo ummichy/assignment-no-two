@@ -63,7 +63,8 @@ color: rgba(93, 88, 239, 1);
   justify-content: space-between;
   align-items: center;
   color: white;
-  margin: 20px 141px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 a:hover{
   color: blue;
@@ -112,12 +113,22 @@ color: rgba(251, 186, 86, 1);
   align-items: center;
   background-color: white;
   margin-top: 20px;
-  margin-left: 141px;
-  margin-right: 141px;
+ 
 }
 header{
-  max-width: 1440px; 
+  max-width: 1158.61px; 
   margin: 0 auto;
 }
 
 
+@media screen and (max-width:576px){
+  .part-1-bar > img{
+    width: calc((100% - 16px));
+  }
+ .bar-element , .bar-button ,.part-2-bar ul{
+    display: none;
+  }
+  
+
+
+}
