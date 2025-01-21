@@ -202,8 +202,14 @@ header{
   padding-right: 40.67px;
   border-radius: 18.86px;
   box-shadow: 0px 6px 50px 0px rgb(203, 199, 199);
-  /* background: linear-gradient( to bottom, rgba(222, 245, 255, 1) , rgba(255, 255, 255, 1) ); */
+  
 }
+.point-one-btn:hover , .point-two-btn:hover , .point-three-btn:hover{
+  color: rgb(143, 141, 141);
+}
+
+
+
 .point-one{
   background: linear-gradient( to bottom, rgba(222, 245, 255, 1) , rgba(255, 255, 255, 1) );
 }
@@ -213,9 +219,26 @@ header{
 .point-three{
   background: linear-gradient( to bottom, rgba(242, 232, 255, 1) , rgba(255, 255, 255, 1) );
 }
-
-
-
+.swipe-button{
+  margin-top: 80px;
+  margin-bottom: 60px;
+  display: flex;
+  gap:10px;
+  justify-content: center;
+}
+.swipe-button-left , .swipe-button-right{
+  border: none;
+  background: none;
+}
+.swipe-button-left > img , .swipe-button-right >img{
+  width: 100%;
+}
+.swipe-button-left:hover , .swipe-button-right:hover{
+  background-color: rgb(143, 141, 141);
+}
+main{
+  background:url(../assets/bg.png), linear-gradient( white 55%, rgb(255, 227, 179) );
+}
 
 
 
