@@ -126,6 +126,100 @@ header{
 .part-3-bar > img{
   display: none;
 }
+.curriculum-part{
+  max-width: 1158.61px; 
+  margin: 0 auto;
+}
+
+
+.curriculum-title{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 2.9rem;
+  color: rgba(0, 0, 0, 1);
+  
+}
+.curriculum-points{
+  display: flex;
+  gap: 28.29px;
+  margin-top: 80px;  
+  text-align: center;
+ 
+}
+.point-two> img , .point-three> img{
+  padding-top: 52.82px;
+  margin-bottom: 32.07px;
+}
+.point-one> img {
+  padding-top: 52.82px;
+  margin-bottom: 21px;
+
+}
+
+.point-one-title , .point-two-title , .point-three-title{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 33.48px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.point-one-description , .point-two-description , .point-three-description{
+  font-weight: 500;
+  font-size: 0.94rem;
+  line-height: 28.3px;
+  margin-bottom: 33.35px;
+  color: rgba(128, 128, 128, 1);
+}
+.point-one-btn{
+  border: none;
+  color: rgba(100, 200, 255, 1);
+  background: none;
+  font-weight: 700;
+  font-size: 0.94rem;
+  margin-bottom: 58.48px;
+}
+.point-two-btn{
+  border: none;
+  color: rgba(240, 170, 0, 1);
+  background: none;
+  font-weight: 700;
+  font-size: 0.94rem;
+  margin-bottom: 58.48px;
+}
+.point-three-btn{
+  border: none;
+  color: rgba(135, 0, 255, 1);
+  background: none;
+  font-weight: 700;
+  font-size: 0.94rem;
+  margin-bottom: 58.48px;
+}
+.point-one , .point-two , .point-three{
+  width: 100%;
+  padding-left: 40.67px;
+  padding-right: 40.67px;
+  border-radius: 18.86px;
+  box-shadow: 0px 6px 50px 0px rgb(203, 199, 199);
+  /* background: linear-gradient( to bottom, rgba(222, 245, 255, 1) , rgba(255, 255, 255, 1) ); */
+}
+.point-one{
+  background: linear-gradient( to bottom, rgba(222, 245, 255, 1) , rgba(255, 255, 255, 1) );
+}
+.point-two{
+  background: linear-gradient( to bottom, rgba(255, 244, 220, 1) , rgba(255, 255, 255, 1) );
+}
+.point-three{
+  background: linear-gradient( to bottom, rgba(242, 232, 255, 1) , rgba(255, 255, 255, 1) );
+}
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:576px){
@@ -238,9 +332,6 @@ a{
 .full-nav-bar{
   margin: 10px 20px;
 }
-
-
-
 }
 
  
