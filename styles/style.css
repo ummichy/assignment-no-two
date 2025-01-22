@@ -629,85 +629,77 @@ br{
 }
 }
 
-/* main part */
 @media screen and (max-width:576px){
-.curriculum-points{
-  flex-direction: column;
-  margin: 20px 31.09px;
-}
-.curriculum-title-container-1{
-margin-top: 40px;
-margin-bottom: 20px;
-}  
-.curriculum-title{
-  font-size: 1.6rem;
-}
-
-.point-one>img{
-  width: calc( ( 100% - 92.6px )/2 );
-  margin-bottom: 22px;
-}
-.point-one-title{
-  font-size: 1rem;
-  margin-bottom: 22px;
-}
-.point-one-description{
-  font-size: 0.64rem;
-  margin-bottom: 25.19px;
-  line-height: 19.2px;
-}
-.point-one-btn{
-  font-size: 0.64rem;
-  margin-bottom: 39.19px;
-}
-
-
-
-
-.point-two>img{
-  width: calc( ( 100% - 92.6px )/2 );
-  margin-bottom: 22px;
-}
-.point-two-title{
-  font-size: 1rem;
-  margin-bottom: 22px;
-}
-.point-two-description{
-  font-size: 0.64rem;
-  margin-bottom: 25.19px;
-  line-height: 19.2px;
-}
-.point-two-btn{
-  font-size: 0.64rem;
-  margin-bottom: 39.19px;
-}
-
-
-
-.point-three>img{
-  width: calc( ( 100% - 92.6px )/2 );
-  margin-bottom: 22px;
-}
-.point-three-title{
-  font-size: 1rem;
-  margin-bottom: 22px;
-}
-.point-three-description{
-  font-size: 0.64rem;
-  margin-bottom: 25.19px;
-  line-height: 19.2px;
-}
-.point-three-btn{
-  font-size: 0.64rem;
-  margin-bottom: 39.19px;
-}
-.swipe-button{
-  display: none;
-}
-.card-1{
-  display: none;
-}
-/* main-part-2 */
+  .curriculum-points{
+    flex-direction: column;
+    margin: 0px 31.09px;
+  
+  }
+  .curriculum-title-container-1{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  }  
+  .curriculum-title{
+    font-size: 1.6rem;
+  }
+  .point-one>img{
+    width: calc( ( 100% - 92.6px )/2 );
+    margin-bottom: 22px;
+  }
+  .point-one-title{
+    font-size: 1rem;
+    margin-bottom: 22px;
+  }
+  .point-one-description{
+    font-size: 0.64rem;
+    margin-bottom: 25.19px;
+    line-height: 19.2px;
+  }
+  .point-one-btn{
+    font-size: 0.64rem;
+    margin-bottom: 39.19px;
+  }
+  .point-two>img{
+    width: calc( ( 100% - 92.6px )/2 );
+    margin-bottom: 22px;
+  }
+  .point-two-title{
+    font-size: 1rem;
+    margin-bottom: 22px;
+  }
+  .point-two-description{
+    font-size: 0.64rem;
+    margin-bottom: 25.19px;
+    line-height: 19.2px;
+  }
+  .point-two-btn{
+    font-size: 0.64rem;
+    margin-bottom: 39.19px;
+  }
+  .point-three>img{
+    width: calc( ( 100% - 92.6px )/2 );
+    margin-bottom: 22px;
+  }
+  .point-three-title{
+    font-size: 1rem;
+    margin-bottom: 22px;
+  }
+  .point-three-description{
+    font-size: 0.64rem;
+    margin-bottom: 25.19px;
+    line-height: 19.2px;
+  }
+  .point-three-btn{
+    font-size: 0.64rem;
+    margin-bottom: 39.19px;
+  }
+  .swipe-button{
+    display: none;
+  }
+  .card-1{
+    display: none;
+  }
+  /* main-part-2 */
 .title-head-contaner{
   margin-top: 80px;
   margin-bottom: 40px;
@@ -716,7 +708,6 @@ margin-bottom: 20px;
 font-size: 1.6rem;
 
 }
-
 .others-card {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -728,9 +719,6 @@ font-size: 1.6rem;
 .another-extra-card{
   display: block;
 }
-.cards{
-  width: 358px;
-}
 .card-2>img ,.card-3>img , .card-4>img , .card-5>img{
   width: 173.27px;
   height: 105.39px;
@@ -740,8 +728,6 @@ font-size: 1.6rem;
   width: 173.27px;
   height: 179.59px;
  }
-
-
  .card-btn-2{
   width: 103.91px;
   height: 22.83px; 
@@ -756,7 +742,6 @@ font-size: 1.6rem;
   position: relative;
   
  } 
-
  .card-2-title{
   font-size: 0.58rem;
   margin-top: 14.27px;
@@ -765,7 +750,6 @@ font-size: 1.6rem;
   padding-right: 23px;
   
  }
-
  .card-btn-3{
   width: 103.91px;
   height: 22.83px; 
@@ -786,7 +770,6 @@ font-size: 1.6rem;
   padding-left: 23px;
   padding-right: 23px;
  }
-
  .card-btn-4{
   width: 103.91px;
   height: 22.83px; 
@@ -830,7 +813,8 @@ font-size: 1.6rem;
  }
  .others-card{
   align-items: center;
-  margin: 20px 31.09px;
+  max-width: 576px;
+  margin: 0 auto;
  }
  .view-btn{
   font-size: 1rem;
@@ -847,9 +831,6 @@ font-size: 1.6rem;
   padding-bottom: 40px;
 }
 
-
 }
- 
- 
- 
+
 
