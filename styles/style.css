@@ -130,17 +130,19 @@ header{
   max-width: 1158.61px; 
   margin: 0 auto;
 }
-
-
 .curriculum-title{
   text-align: center;
-  margin-top: 60px;
-  margin-bottom: 80px;
   font-weight: 700;
   font-size: 2.9rem;
   color: rgba(0, 0, 0, 1);
   
 }
+.curriculum-title-container-1{
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+
 .curriculum-points{
   display: flex;
   gap: 28.29px;
@@ -512,7 +514,14 @@ footer{
  background-color: ghostwhite;
  box-shadow: 0px 6px 50px 0px rgb(203, 199, 199);
 }
+.extra-cards{
+  display: none;
+}
+.another-extra-card{
+  display: none;
+}
 
+/* header part */
 @media screen and (max-width:576px){
   .part-1-bar > img{
      width: calc((100% - 16px));
@@ -565,10 +574,7 @@ footer{
  header{
    margin-top: 0px;
  }
- 
  }
- 
-
 @media screen and ( min-width:576px ) and ( max-width:992px ){
  ul{
   display: grid;
@@ -608,8 +614,6 @@ br{
 .nav-anchor{
   font-size: 1rem;
 }
-
-
 }
 @media screen and ( min-width:992px ) and ( max-width:1100px ){
 
@@ -625,6 +629,226 @@ br{
 }
 }
 
+/* main part */
+@media screen and (max-width:576px){
+.curriculum-points{
+  flex-direction: column;
+  margin: 20px 31.09px;
+}
+.curriculum-title-container-1{
+margin-top: 40px;
+margin-bottom: 20px;
+}  
+.curriculum-title{
+  font-size: 1.6rem;
+}
+
+.point-one>img{
+  width: calc( ( 100% - 92.6px )/2 );
+  margin-bottom: 22px;
+}
+.point-one-title{
+  font-size: 1rem;
+  margin-bottom: 22px;
+}
+.point-one-description{
+  font-size: 0.64rem;
+  margin-bottom: 25.19px;
+  line-height: 19.2px;
+}
+.point-one-btn{
+  font-size: 0.64rem;
+  margin-bottom: 39.19px;
+}
+
+
+
+
+.point-two>img{
+  width: calc( ( 100% - 92.6px )/2 );
+  margin-bottom: 22px;
+}
+.point-two-title{
+  font-size: 1rem;
+  margin-bottom: 22px;
+}
+.point-two-description{
+  font-size: 0.64rem;
+  margin-bottom: 25.19px;
+  line-height: 19.2px;
+}
+.point-two-btn{
+  font-size: 0.64rem;
+  margin-bottom: 39.19px;
+}
+
+
+
+.point-three>img{
+  width: calc( ( 100% - 92.6px )/2 );
+  margin-bottom: 22px;
+}
+.point-three-title{
+  font-size: 1rem;
+  margin-bottom: 22px;
+}
+.point-three-description{
+  font-size: 0.64rem;
+  margin-bottom: 25.19px;
+  line-height: 19.2px;
+}
+.point-three-btn{
+  font-size: 0.64rem;
+  margin-bottom: 39.19px;
+}
+.swipe-button{
+  display: none;
+}
+.card-1{
+  display: none;
+}
+/* main-part-2 */
+.title-head-contaner{
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+.title-head{
+font-size: 1.6rem;
+
+}
+
+.others-card {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 11.31px;
+}
+.extra-cards{
+  display: block;
+}
+.another-extra-card{
+  display: block;
+}
+.cards{
+  width: 358px;
+}
+.card-2>img ,.card-3>img , .card-4>img , .card-5>img{
+  width: 173.27px;
+  height: 105.39px;
+ }
+ .card-2 , .card-3 , .card-4 , .card-5   {
+  border-radius: 16px;
+  width: 173.27px;
+  height: 179.59px;
+ }
+
+
+ .card-btn-2{
+  width: 103.91px;
+  height: 22.83px; 
+  border-radius: 28.54px;
+  font-size: 0.57rem;
+  position: absolute;
+  top: 92px;
+  left: 23px;
+  
+ }
+ .card-2{
+  position: relative;
+  
+ } 
+
+ .card-2-title{
+  font-size: 0.58rem;
+  margin-top: 14.27px;
+  line-height: 17.1px;
+  padding-left: 23px;
+  padding-right: 23px;
+  
+ }
+
+ .card-btn-3{
+  width: 103.91px;
+  height: 22.83px; 
+  border-radius: 28.54px;
+  font-size: 0.57rem;
+  position: absolute;
+  top: 92px;
+  left: 23px;
+  
+ }
+ .card-3{
+  position: relative;
+ } 
+ .card-3-title{
+  font-size: 0.58rem;
+  margin-top: 14.27px;
+  line-height: 17.1px;
+  padding-left: 23px;
+  padding-right: 23px;
+ }
+
+ .card-btn-4{
+  width: 103.91px;
+  height: 22.83px; 
+  border-radius: 28.54px;
+  font-size: 0.57rem;
+  position: absolute;
+  top: 92px;
+  left: 23px;
+ }
+ .card-4{
+  position: relative;
+ } 
+ .card-4-title{
+  font-size: 0.58rem;
+  margin-top: 14.27px;
+  line-height: 17.1px;
+  padding-left: 23px;
+  padding-right: 23px;
+  
+ }
+
+ .card-btn-5{
+  width: 103.91px;
+  height: 22.83px; 
+  border-radius: 28.54px;
+  font-size: 0.57rem;
+  position: absolute;
+  top: 92px;
+  left: 23px;
+ }
+ .card-5{
+  position: relative;
+ } 
+ .card-5-title{
+  font-size: 0.58rem;
+  margin-top: 14.27px;
+  line-height: 17.1px;
+  padding-left: 23px;
+  padding-right: 23px;
+  
+ }
+ .others-card{
+  align-items: center;
+  margin: 20px 31.09px;
+ }
+ .view-btn{
+  font-size: 1rem;
+  width: 134px;
+  height: 30px;
+  border: none;
+  padding-top: 0px;
+  align-items: center;
+  line-height: 30px;
+  
+}
+.view-button-container{
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+}
  
  
  
