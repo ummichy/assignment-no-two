@@ -830,6 +830,78 @@ font-size: 1.6rem;
   padding-top: 20px;
   padding-bottom: 40px;
 }
+.image-title{
+  display: flex;
+  gap: 8.93px;
+ align-items: center;
+ margin-bottom: 23.88px;
+}
+.footer-logo{
+  height: 100%;
+ background-color: white;
+ border: none;
+ border-radius: 30px; 
+}
+.footer-title-1{
+  font-weight: 700;
+  font-size: 2.2rem;
+  color:rgba(255, 255, 255, 1) ;
+}
+.footer-part-description{
+  text-align: start;
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 1);
+
+}
+.footer-title-2{
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 27.57px;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-anchors{
+  font-weight: 400;
+  font-size: 1.06rem;
+  display: flex;
+  flex-direction: column;
+  gap: 17.15px;
+}
+.footer-title-3{
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 36.96px;
+  color:rgba(255, 255, 255, 1) ;
+}
+.footer-logos{
+  display: flex;
+  gap:8.93px;
+}
+.footer-part-1{
+  margin-top: 65.49px;
+  margin-bottom: 32px;
+}
+
+.footer-part-3{
+  margin-top: 31.98px;
+}
+.footer-logo-all{
+  width: 39.91px;
+  margin-bottom: 60.09px;
+}
+.footer-container{
+  flex-direction: column;
+  padding: 0px 25px;
+}
+.footer-part-2 {
+  margin-top: 0;
+}
+.image-title{
+  width: 20px;
+}
+.footer-part-1{
+  width: 310px;
+}
 
 }
 
