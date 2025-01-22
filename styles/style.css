@@ -520,6 +520,10 @@ footer{
 .another-extra-card{
   display: none;
 }
+marquee{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
 
 /* header part */
 @media screen and (max-width:576px){
@@ -901,6 +905,9 @@ font-size: 1.6rem;
 }
 .footer-part-1{
   width: 350px;
+}
+marquee{
+  font-size: 1rem;
 }
 
 }
