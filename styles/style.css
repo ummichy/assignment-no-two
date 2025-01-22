@@ -436,14 +436,82 @@ main{
 .footer-container{
   max-width: 1158.61px; 
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 footer{
   background-color:rgba(1, 172, 253, 1) ;
 }
 .image-title{
   display: flex;
+  gap: 10.7px;
+ align-items: center;
+ margin-bottom: 35.35px;
 }
-
+.footer-logo{
+  height: 100%;
+  width: 82.9px;
+  height: 94px; 
+ background-color: white;
+ border: none;
+ border-radius: 30px; 
+}
+.footer-title-1{
+  font-weight: 700;
+  font-size: 2.6rem;
+  color:rgba(255, 255, 255, 1) ;
+}
+.footer-part-description{
+  text-align: start;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 1);
+}
+.footer-title-2{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 32px;
+  color: rgba(255, 255, 255, 1);
+}
+.common{
+  text-decoration: none;
+  color:rgba(255, 255, 255, 1);
+}
+.common:hover{
+  color: blue;
+}
+.footer-anchors{
+  font-weight: 400;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-title-3{
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-bottom: 32px;
+  color:rgba(255, 255, 255, 1) ;
+}
+.footer-logos{
+  display: flex;
+  gap:10.15px;
+}
+.footer-part-1{
+  width: 399px;
+  margin-top: 123px;
+  margin-bottom: 179px;
+}
+.footer-part-2{
+  margin-top: 123px;
+}
+.footer-part-3{
+  margin-top: 123px;
+}
+.footer-logo-all:hover{
+ background-color: ghostwhite;
+ box-shadow: 0px 6px 50px 0px rgb(203, 199, 199);
+}
 
 @media screen and (max-width:576px){
   .part-1-bar > img{
