@@ -891,7 +891,7 @@ font-size: 1.6rem;
 }
 .footer-container{
   flex-direction: column;
-  padding: 0px 25px;
+  padding: 0px 30px;
 }
 .footer-part-2 {
   margin-top: 0;
@@ -900,7 +900,7 @@ font-size: 1.6rem;
   width: 20px;
 }
 .footer-part-1{
-  width: 310px;
+  width: 350px;
 }
 
 }
